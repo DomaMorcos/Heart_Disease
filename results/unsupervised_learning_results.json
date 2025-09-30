@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-30T23:15:32.154057",
+  "dataset_info": {
+    "total_samples": 920,
+    "features": [
+      "cp",
+      "oldpeak",
+      "exang",
+      "thalach",
+      "age",
+      "chol",
+      "fbs",
+      "slope",
+      "ca",
+      "sex",
+      "thal"
+    ]
+  },
+  "kmeans_results": {
+    "optimal_k": 2,
+    "silhouette_score": -0.29019302505671885,
+    "inertia": 5480.080621726944,
+    "cluster_sizes": {
+      "0": 682,
+      "1": 238
+    }
+  },
+  "hierarchical_results": {
+    "n_clusters": 2,
+    "silhouette_score": 0.3617418886932556,
+    "cluster_sizes": {
+      "0": 687,
+      "1": 233
+    }
+  },
+  "validation_metrics": {
+    "kmeans_ari": 0.035791242876230395,
+    "kmeans_nmi": 0.06909862456768208,
+    "kmeans_homogeneity": 0.06328021809565072,
+    "kmeans_completeness": 0.07609533895995525,
+    "kmeans_v_measure": 0.0690986245676821,
+    "hierarchical_ari": 0.033138875835934466,
+    "hierarchical_nmi": 0.06742424271685643
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-09-30T23:01:43.743186",
+  "dataset_info": {
+    "total_samples": 920,
+    "features": [
+      "cp",
+      "oldpeak",
+      "exang",
+      "thalach",
+      "age",
+      "chol",
+      "fbs",
+      "slope",
+      "ca",
+      "sex",
+      "thal"
+    ],
+    "train_size": 736,
+    "test_size": 184
+  },
+  "model_results": [
+    {
+      "Model": "Logistic Regression",
+      "Train_Accuracy": 0.8220108695652174,
+      "Test_Accuracy": 0.8206521739130435,
+      "Precision": 0.822429906542056,
+      "Recall": 0.8627450980392157,
+      "F1_Score": 0.8421052631578947,
+      "ROC_AUC": 0.8871353419416548,
+      "CV_Mean": 0.8165103879389595,
+      "CV_Std": 0.03386450327865538,
+      "Training_Time": 0.015816
+    },
+    {
+      "Model": "Decision Tree",
+      "Train_Accuracy": 1.0,
+      "Test_Accuracy": 0.717391304347826,
+      "Precision": 0.7450980392156863,
+      "Recall": 0.7450980392156863,
+      "F1_Score": 0.7450980392156863,
+      "ROC_AUC": 0.7140124342419895,
+      "CV_Mean": 0.7119691119691118,
+      "CV_Std": 0.05020383802413405,
+      "Training_Time": 0.002514
+    },
+    {
+      "Model": "Random Forest",
+      "Train_Accuracy": 1.0,
+      "Test_Accuracy": 0.8043478260869565,
+      "Precision": 0.8,
+      "Recall": 0.8627450980392157,
+      "F1_Score": 0.8301886792452831,
+      "ROC_AUC": 0.9015423242467718,
+      "CV_Mean": 0.7975455046883618,
+      "CV_Std": 0.02637214655608558,
+      "Training_Time": 0.097828
+    },
+    {
+      "Model": "SVM",
+      "Train_Accuracy": 0.8301630434782609,
+      "Test_Accuracy": 0.8043478260869565,
+      "Precision": 0.8,
+      "Recall": 0.8627450980392157,
+      "F1_Score": 0.8301886792452831,
+      "ROC_AUC": 0.8945480631276901,
+      "CV_Mean": 0.8070601213458357,
+      "CV_Std": 0.02876191528307951,
+      "Training_Time": 0.032053
+    }
+  ],
+  "best_model": {
+    "name": "Logistic Regression",
+    "f1_score": 0.8421052631578947,
+    "accuracy": 0.8206521739130435,
+    "roc_auc": 0.8871353419416548
+  }
+}

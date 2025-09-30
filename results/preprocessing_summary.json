@@ -1,0 +1,89 @@
+{
+  "total_instances": 920,
+  "features": 13,
+  "missing_values_handled": true,
+  "scaling_applied": true,
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "numerical_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_distribution": {
+    "1": 509,
+    "0": 411
+  },
+  "feature_ranges_original": {
+    "age": {
+      "min": 28.0,
+      "max": 77.0
+    },
+    "sex": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "cp": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "trestbps": {
+      "min": 80.0,
+      "max": 200.0
+    },
+    "chol": {
+      "min": 85.0,
+      "max": 603.0
+    },
+    "fbs": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "restecg": {
+      "min": 0.0,
+      "max": 2.0
+    },
+    "thalach": {
+      "min": 60.0,
+      "max": 202.0
+    },
+    "exang": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "oldpeak": {
+      "min": -2.6,
+      "max": 6.2
+    },
+    "slope": {
+      "min": 1.0,
+      "max": 3.0
+    },
+    "ca": {
+      "min": 0.0,
+      "max": 3.0
+    },
+    "thal": {
+      "min": 3.0,
+      "max": 7.0
+    }
+  }
+}

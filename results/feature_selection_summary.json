@@ -1,0 +1,294 @@
+{
+  "original_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "selected_features": [
+    "cp",
+    "oldpeak",
+    "exang",
+    "thalach",
+    "age",
+    "chol",
+    "fbs",
+    "slope",
+    "ca",
+    "sex",
+    "thal"
+  ],
+  "dimensionality_reduction": "15.4%",
+  "methods_used": [
+    "Random Forest",
+    "RFE",
+    "Chi-Square",
+    "Mutual Info"
+  ],
+  "feature_voting": {
+    "cp": 4,
+    "fbs": 2,
+    "oldpeak": 4,
+    "exang": 4,
+    "thalach": 4,
+    "restecg": 0,
+    "age": 3,
+    "chol": 3,
+    "trestbps": 1,
+    "slope": 2,
+    "ca": 2,
+    "sex": 2,
+    "thal": 2
+  },
+  "rf_importance": [
+    {
+      "feature": "cp",
+      "importance": 0.17149987815240528
+    },
+    {
+      "feature": "thalach",
+      "importance": 0.14193139536234203
+    },
+    {
+      "feature": "chol",
+      "importance": 0.12622496234983743
+    },
+    {
+      "feature": "age",
+      "importance": 0.11675353225082309
+    },
+    {
+      "feature": "oldpeak",
+      "importance": 0.11080739361755329
+    },
+    {
+      "feature": "trestbps",
+      "importance": 0.08277330983502183
+    },
+    {
+      "feature": "exang",
+      "importance": 0.071065167581679
+    },
+    {
+      "feature": "sex",
+      "importance": 0.043187101051413566
+    },
+    {
+      "feature": "thal",
+      "importance": 0.03726269105946643
+    },
+    {
+      "feature": "restecg",
+      "importance": 0.03144881084738211
+    },
+    {
+      "feature": "slope",
+      "importance": 0.025796384415210705
+    },
+    {
+      "feature": "ca",
+      "importance": 0.02375091915933699
+    },
+    {
+      "feature": "fbs",
+      "importance": 0.017498454317528143
+    }
+  ],
+  "rfe_ranking": [
+    {
+      "feature": "age",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "sex",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "cp",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "chol",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "fbs",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "thalach",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "exang",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "oldpeak",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "slope",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "ca",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "thal",
+      "ranking": 1,
+      "selected": true
+    },
+    {
+      "feature": "restecg",
+      "ranking": 2,
+      "selected": false
+    },
+    {
+      "feature": "trestbps",
+      "ranking": 3,
+      "selected": false
+    }
+  ],
+  "chi2_results": [
+    {
+      "feature": "exang",
+      "chi2_score": 109.61182614829721,
+      "p_value": 1.1918734967716884e-25
+    },
+    {
+      "feature": "thal",
+      "chi2_score": 53.90988972686917,
+      "p_value": 2.0989852128821757e-13
+    },
+    {
+      "feature": "cp",
+      "chi2_score": 26.25642286725754,
+      "p_value": 2.9895887783663745e-07
+    },
+    {
+      "feature": "sex",
+      "chi2_score": 18.318201669579587,
+      "p_value": 1.8691277096130557e-05
+    },
+    {
+      "feature": "ca",
+      "chi2_score": 14.478626857528488,
+      "p_value": 0.00014175888885620359
+    },
+    {
+      "feature": "fbs",
+      "chi2_score": 9.133271828896572,
+      "p_value": 0.002510024399379899
+    },
+    {
+      "feature": "thalach",
+      "chi2_score": 7.68028057222114,
+      "p_value": 0.005582748748093108
+    },
+    {
+      "feature": "slope",
+      "chi2_score": 6.089700384653994,
+      "p_value": 0.013597214241819167
+    },
+    {
+      "feature": "age",
+      "chi2_score": 5.2188907183587245,
+      "p_value": 0.022342798988096775
+    },
+    {
+      "feature": "oldpeak",
+      "chi2_score": 4.538426491834391,
+      "p_value": 0.03314204363560377
+    },
+    {
+      "feature": "restecg",
+      "chi2_score": 1.9181745739831597,
+      "p_value": 0.16605803391371082
+    },
+    {
+      "feature": "trestbps",
+      "chi2_score": 0.5850140577604791,
+      "p_value": 0.44435365428071183
+    },
+    {
+      "feature": "chol",
+      "chi2_score": 0.21364813400045155,
+      "p_value": 0.6439229373997253
+    }
+  ],
+  "mi_results": [
+    {
+      "feature": "cp",
+      "mi_score": 0.1465415062489912
+    },
+    {
+      "feature": "exang",
+      "mi_score": 0.11545809469759671
+    },
+    {
+      "feature": "thalach",
+      "mi_score": 0.0722595281777576
+    },
+    {
+      "feature": "oldpeak",
+      "mi_score": 0.0633081769222481
+    },
+    {
+      "feature": "chol",
+      "mi_score": 0.060774584433686885
+    },
+    {
+      "feature": "age",
+      "mi_score": 0.0485591378637682
+    },
+    {
+      "feature": "trestbps",
+      "mi_score": 0.03566364715335246
+    },
+    {
+      "feature": "restecg",
+      "mi_score": 0.02979270506168752
+    },
+    {
+      "feature": "slope",
+      "mi_score": 0.029242421390399898
+    },
+    {
+      "feature": "sex",
+      "mi_score": 0.027263926801594618
+    },
+    {
+      "feature": "thal",
+      "mi_score": 0.025290334822863247
+    },
+    {
+      "feature": "ca",
+      "mi_score": 0.013875138610679905
+    },
+    {
+      "feature": "fbs",
+      "mi_score": 0.0
+    }
+  ]
+}
